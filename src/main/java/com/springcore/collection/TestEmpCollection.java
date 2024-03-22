@@ -9,8 +9,9 @@ public class TestEmpCollection {
 		
 		ApplicationContext context = new ClassPathXmlApplicationContext("com/springcore/collection/collection-config.xml");
 		Emp emp = (Emp)context.getBean("emp");
-		
-		System.out.println(emp);
+		System.out.println(emp.getName());
+		System.out.println(emp.getPhones());
+		System.out.println(emp.getAddresses());
 	}
 
 }
