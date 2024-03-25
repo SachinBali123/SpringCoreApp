@@ -12,6 +12,7 @@ public class TestEmpCollection {
 		System.out.println(emp.getName());
 		System.out.println(emp.getPhones());
 		System.out.println(emp.getAddresses());
+		System.out.println(emp);
 	}
 
 }

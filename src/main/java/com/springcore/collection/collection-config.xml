@@ -37,6 +37,13 @@
 		</map>
 	</property>
 	
+	<property name="props">
+		<props>
+			<prop key="name">Anmol</prop>
+			<prop key="channelName"> Learn Java With Sachin</prop>
+		</props>
+	</property>
+	
 	
   </bean>
   
