@@ -1,7 +1,5 @@
 package com.springcore.lifecycle.poc;
 
-import javax.security.auth.Destroyable;
-
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 
@@ -33,14 +31,14 @@ public class Birds implements InitializingBean, DisposableBean{
 		return "Birds [name=" + name + "]";
 	}
 
-	@Override
 	public void afterPropertiesSet() throws Exception {
-		System.out.println("Birds class Initialized here");
+		
+		System.out.println("In Init Method ");
+		
 	}
 
-	@Override
 	public void destroy() throws Exception {
-		System.out.println("Birds class Destroyed here");
+		System.out.println("In Destroy Method ");
 		
 	}
 	
